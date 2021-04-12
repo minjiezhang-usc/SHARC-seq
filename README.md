@@ -17,8 +17,8 @@ In this step, alignments in the sam file are filtered to remove low-confidence s
     python gaptypes.py input.sam output_prefix glenlog nprocs
 		
     glenlog: -1. Scaling factor for gap extension penalty, equivalent to scoreGenomicLengthLog2scale in STAR
-    minlen: 15. Minimal length for a segment in an alignment to be considered confident for building the connection database
-    nprocs: 10. Number of CPUs to use for the run, depending availability of resources.
+    minlen:  15. Minimal length for a segment in an alignment to be considered confident for building the connection database
+    nprocs:  10. Number of CPUs to use for the run, depending availability of resources.
 		
 4, Filter spliced and short gaps
 
@@ -27,8 +27,8 @@ Output files gap1.sam and gapm.sam may contain alignments that have only splicin
     python gapfilter.py annotation insam outsam idloc short
 		
     annotation: the file containing the splicing junctions should be in GTF format. 
-    idloc: location of the transcript_ID field, is usually field 11. 
-    short: is set to either yes which means 'remove short 1-2nt gaps', or no, which means 'ignore short 1-2nt gaps'.
+    idloc:      location of the transcript_ID field, is usually field 11. 
+    short:      is set to either yes which means 'remove short 1-2nt gaps', or no, which means 'ignore short 1-2nt gaps'.
 
 5, Cluster alignments to groups
 
@@ -41,13 +41,13 @@ After filtering alignments, To assemble alignments to DGs and NGs using the crss
     bedgraphs: Path to genome coverage files. Coma separated 2 files for + and - strands
     
     Optional arguments:
-    -h: show the help message and exit
-    -out: path of output folder
-    -cluster: clustering method, "cliques" or "spectral"(default)
-    -n: Number of threads. Default is 8
+    -h:        show the help message and exit
+    -out:      path of output folder
+    -cluster:  clustering method, "cliques" or "spectral"(default)
+    -n:        Number of threads. Default is 8
     -covlimit: Max coverage to be directly graphed. Default is 1000.
-    -t_o: Overlap threshold 0-1 inclusive. Default: 0.5 for "spectral", 0.1 for "cliques"
-    -t_eig: Eigenratio threshold (positive) for "spectral" only. Default: 5.
+    -t_o:      Overlap threshold 0-1 inclusive. Default: 0.5 for "spectral", 0.1 for "cliques"
+    -t_eig:    Eigenratio threshold (positive) for "spectral" only. Default: 5.
 
 6, icSHAPE activity calculation
 
