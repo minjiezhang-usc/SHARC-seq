@@ -1,0 +1,11 @@
+Input files (1):
+SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam
+
+Output files (4):
+SHARC_5mM_exo2h_hs45S_18S_DG_distance.txt
+SHARC_5mM_exo2h_hs45S_28S_DG_distance.txt
+SHARC_5mM_exo2h_hs45S_all_DG_distance.txt
+SHARC_5mM_exo2h_hs45Slog.out
+
+Command:
+python DG_rRNA_dynamic.py SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam hs45.arc.bed hs45_dsRNA.bedpe hs45S_ES.bed 4v6x.cif 10 40 0.5 50 DG SHARC_5mM_exo2h_hs45S

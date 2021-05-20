@@ -1,0 +1,11 @@
+Input files (1): 
+U8U13_hg38pri_only.sam
+
+Output files (6 sam and 1 log): 
+U8U13_hg38pri_onlybad.sam
+U8U13_hg38pri_onlycont.sam
+U8U13_hg38pri_onlygap1.sam
+U8U13_hg38pri_onlygapm.sam
+U8U13_hg38pri_onlyhomo.sam
+U8U13_hg38pri_onlytrans.sam
+U8U13_hg38pri_onlylog.out

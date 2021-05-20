@@ -1,0 +1,8 @@
+Input files (1):
+SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam
+
+Output files (1):
+SHARC_5mM_exo2h_hs45S_icSHAPE_activitylog.out
+
+Command:
+python DG_frenquency_icSHAPE.py SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam HEK293_icSHAPE_hs45S.bedgraph 10 0.5 15 15 reads SHARC_5mM_exo2h_hs45S_icSHAPE_activity

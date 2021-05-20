@@ -1,0 +1,8 @@
+Input files (1):
+SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam
+
+Output files (1):
+SHARC_5mM_exo2h_hs45S.pdf
+
+Command:
+python DG_rRNA_distance_heatmap.py SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam HEK293_icSHAPE_hs45S.bedgraph 0.1 hs45.arc.bed 4v6x.cif 10 40 0.5 reads 50 SHARC_5mM_exo2h_hs45S

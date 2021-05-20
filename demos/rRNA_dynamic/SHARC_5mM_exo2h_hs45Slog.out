@@ -1,0 +1,16 @@
+2021-05-19 23:20:29 Started exo.py ...
+2021-05-19 23:20:29 Collecting alignments into a dictionary ...
+        DGs/reads number of 28S:
+         total DGs/reads of 28S: 97
+         dsRNA DGs/reads of 28S: 35
+      nondsRNA DGs/reads of 28S: 62
+               core segment DGs/reads of 28S: 0
+          expansion segment DGs/reads of 28S: 0
+
+        DGs/reads number of 18S:
+         total DGs/reads of 18S: 24
+         dsRNA DGs/reads of 18S: 12
+      nondsRNA DGs/reads of 18S: 12
+               core segment DGs/reads of 18S: 0
+          expansion segment DGs/reads of 18S: 0
+
