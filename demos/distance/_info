@@ -1,5 +1,8 @@
-Input files (1):
+Input files (4):
 SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam
+HEK293_icSHAPE_hs45S.bedgraph
+hs45.arc.bed
+4v6x.cif
 
 Output files (1):
 SHARC_5mM_exo2h_hs45S.pdf
