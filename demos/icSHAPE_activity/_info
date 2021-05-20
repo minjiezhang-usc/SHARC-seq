@@ -1,5 +1,6 @@
 Input files (1):
 SHARC_5mM_exo2h_hs45S.cliques.t_o0.2.sam
+HEK293_icSHAPE_hs45S.bedgraph
 
 Output files (1):
 SHARC_5mM_exo2h_hs45S_icSHAPE_activitylog.out
