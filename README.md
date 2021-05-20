@@ -1,28 +1,40 @@
+# SHARC-seq
+
+SHARC-Seq pipeline are python scripts for Spatial 2’-Hydroxyl Acylation Reversible Crosslinking (SHARC) sequencing data.
+
+
+# Overview
+
+Three-dimensional (3D) structures dictate the functions of RNA molecules in a wide variety of biological processes. RNA 3D structure is determined by sparse tertiary contacts which lock RNA into well-defined structures. Direct determination of RNA 3D structures in vivo is difficult due to their large sizes, conformational heterogeneity and dynamics. Here we present a new method, Spatial 2’-Hydroxyl Acylation Reversible Crosslinking (SHARC) sequencing, which uses chemical crosslinkers of defined lengths to measure distances between nucleotides in cellular RNA. 
+
+
 # System Requirements
 
-# Hardware requirements
-SHARC-Seq pipeline package requires only a standard computer with enough RAM to support the in-memory operations.
+Hardware requirements
 
-# Software requirements
-OS Requirements
-This package is supported for macOS and Linux. The package has been tested on the following systems:
+    SHARC-Seq pipeline package requires only a standard computer with enough RAM to support the in-memory operations.
 
-     macOS: Mojave (10.14.1)
-     Linux: Ubuntu 16.04
+Software requirements
 
-Python Dependencies
-SHARC-Seq pipeline mainly depends on the Python scientific stack.
+    OS Requirements
 
-    numpy
-    itertools
-    seaborn
-    math
-    random
-    pysam
-    RNA
-    matplotlib
-    sklearn.metrics
-    PDBParser
+    This package is supported for macOS and Linux. The package has been tested on the following systems:
+
+         macOS: Mojave (10.14.1)
+         Linux: Ubuntu 16.04
+
+    Python Dependencies
+         SHARC-Seq pipeline mainly depends on the Python scientific stack.
+         numpy
+         itertools
+         seaborn
+         math
+         random
+         pysam
+         RNA
+         matplotlib
+         sklearn.metrics
+         PDBParser
     
 
 # SHARC-seq analysis strategy
