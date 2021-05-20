@@ -1,14 +1,29 @@
-System Requirements
+# System Requirements
 
-Hardware requirements
+# Hardware requirements
 SHARC-Seq pipeline package requires only a standard computer with enough RAM to support the in-memory operations.
 
-Software requirements
+# Software requirements
 OS Requirements
 This package is supported for macOS and Linux. The package has been tested on the following systems:
+
      macOS: Mojave (10.14.1)
      Linux: Ubuntu 16.04
 
+Python Dependencies
+SHARC-Seq pipeline mainly depends on the Python scientific stack.
+
+    numpy
+    itertools
+    seaborn
+    math
+    random
+    pysam
+    RNA
+    matplotlib
+    sklearn.metrics
+    PDBParser
+    
 
 # SHARC-seq analysis strategy
 
