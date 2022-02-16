@@ -1,5 +1,4 @@
 """
-gapanalysis.py, Zhipeng Lu, Zhipengluchina@gmail.com
 
 Table of Contents
 0. introduction to the pipeline
